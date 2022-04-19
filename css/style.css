@@ -1,0 +1,208 @@
+@font-face {
+    font-family: "Tahoma";
+    src: url("Tahoma-Bold.eot");
+    src: local("Tahoma Bold"), local("Tahoma-Bold"),
+        url(../fonts/Tahoma-Bold.eot) format("embedded-opentype"),
+        url(../fonts/Tahoma-Bold.woff2) format("woff2"),
+        url(../fonts/Tahoma-Bold.woff) format("woff"),
+        url(../fonts/Tahoma-Bold.ttf) format("truetype");
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Tahoma";
+    src: url("Tahoma.eot");
+    src: local("Tahoma"), url(../fonts/Tahoma.eot) format("embedded-opentype"),
+        url(../fonts/Tahoma.woff2) format("woff2"),
+        url(../fonts/Tahoma.woff) format("woff"),
+        url(../fonts/Tahoma.ttf) format("truetype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+img,
+svg {
+    width: 100%;
+    display: block;
+}
+
+.idc-section {
+    position: relative;
+    max-width: 690px;
+    margin: 0 auto;
+    font-family: Tahoma, Verdana, Geneva, sans-serif;
+}
+
+.idc-flex {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+
+.idc-container {
+    margin: 0 auto;
+    max-width: 610px;
+}
+
+.idc-bgwrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: -1;
+}
+.idc-h1 {
+    margin: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+/* *********************************head***************** */
+.idc-head .idc-container {
+    position: relative;
+    padding-top: 65px;
+    padding-bottom: 83px;
+}
+
+.idc-logo {
+    width: 63px;
+    height: 63px;
+    position: absolute;
+    top: 30px;
+    right: 0;
+}
+.idc-head .idc-h1 {
+    max-width: 262px;
+}
+.idc-content {
+    position: absolute;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+.idc-swiper-block {
+    max-width: 388px;
+    margin-left: auto;
+}
+.idc-swiper-block::before {
+    content: "";
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: -50px;
+    background: #008f32;
+    width: 390px;
+    height: 390px;
+    border-radius: 50%;
+    z-index: 2;
+}
+.idc-swiper-pagination {
+    position: absolute;
+    text-align: center;
+    top: unset;
+    height: 8px;
+    -webkit-transform: translate(0) !important;
+    -ms-transform: translate(0) !important;
+    transform: translate(0) !important;
+}
+.idc-swiper-pagination .swiper-pagination-bullet {
+    opacity: 1;
+    background: #ffffff;
+    margin-left: 2.5px !important;
+    margin-right: 2.5px !important;
+    width: 8px;
+    height: 8px;
+    border: 1px solid #008f32;
+}
+.idc-swiper-pagination .swiper-pagination-bullet-active {
+    background: #008f32;
+}
+
+/* *************info************** */
+.idc-info .idc-container {
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.idc-info p > strong {
+    margin: 0;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-transform: uppercase;
+    color: #eb2316;
+}
+.idc-info p {
+    margin: 0;
+}
+.idc-info p:not(:first-child) {
+    margin-top: 50px;
+}
+
+.idc-info ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    margin-top: 20px;
+    max-width: 490px;
+}
+
+.idc-info ul li {
+    position: relative;
+    padding-left: 15px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+}
+
+.idc-info ul li::before {
+    content: "";
+    position: absolute;
+    top: 7px;
+    left: 0;
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background: #000000;
+}
+
+/* ***********************footer****************** */
+.idc-footer .idc-container {
+    padding-top: 33px;
+    padding-bottom: 173px;
+}
+
+.idc-ps {
+    margin: 0;
+    text-align: center;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 12px;
+    color: #000000;
+    opacity: 0.5;
+}

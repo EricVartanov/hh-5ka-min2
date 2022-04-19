@@ -1,0 +1,114 @@
+@media screen and (max-width: 1019px) {
+    .idc-section {
+        max-width: 610px;
+    }
+    .idc-container {
+        max-width: unset;
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+
+    /* ***************head***************** */
+    .idc-head .idc-container {
+        position: relative;
+        padding-top: 52px;
+        padding-bottom: 70px;
+    }
+
+    .idc-logo {
+        width: 50px;
+        height: 50px;
+        top: 15px;
+        right: 15px;
+    }
+    .idc-head .idc-h1 {
+        max-width: 262px;
+    }
+    .idc-swiper-block {
+        max-width: 342px;
+    }
+    .idc-swiper-block::before {
+        left: -86px;
+    }
+
+    /* ******info**** */
+    .idc-info .idc-container {
+        padding-bottom: 32px;
+    }
+}
+
+@media (max-width: 699px) {
+    /* ******head**** */
+    .idc-head .idc-container {
+        position: relative;
+        padding-top: 22px;
+        padding-bottom: 37px;
+        height: 36vw;
+    }
+
+    .idc-logo {
+        /* width: 25px; */
+        /* height: 25px; */
+        height: 8vw;
+        width: 8vw;
+    }
+    .idc-head .idc-h1 {
+        max-width: 54vw;
+        /* font-size: 12px; */
+        /* line-height: 14px; */
+        font-size: 3.8vw;
+        line-height: 4.4vw;
+    }
+    .idc-swiper-block {
+        max-width: 56vw;
+    }
+    .idc-swiper-block::before {
+        left: -27%;
+        width: 85vw;
+        height: 85vw;
+        /* max-width: 390px; */
+        /* max-height: 390px; */
+    }
+    .idc-swiper-pagination .swiper-pagination-bullet {
+        width: 5px;
+        height: 5px;
+    }
+
+    /* ******info**** */
+    .idc-info .idc-container {
+        padding-top: 30px;
+        padding-bottom: 15px;
+    }
+
+    .idc-info p > strong {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .idc-info p:not(:first-child) {
+        margin-top: 30px;
+    }
+    .idc-info ul {
+        margin-top: 10px;
+        max-width: 420px;
+    }
+
+    .idc-info ul li {
+        font-size: 14px;
+        line-height: 17px;
+    }
+    .idc-info ul li::before {
+        top: 7px;
+        width: 4px;
+        height: 4px;
+    }
+
+    /* ******footer**** */
+    .idc-footer .idc-container {
+        padding-top: 0px;
+        padding-bottom: 95px;
+    }
+    .idc-ps {
+        font-size: 8px;
+        line-height: 10px;
+    }
+}
