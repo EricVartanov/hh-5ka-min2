@@ -12,7 +12,7 @@ const mySwiper = new Swiper(".idc-swiper", {
     watchOverflow: true,
     grabCursor: true,
     autoplay: {
-        delay: 5000,
+        delay: 3000,
     },
     pagination: {
         el: ".idc-swiper-pagination",
